@@ -24,7 +24,7 @@ To view the lastest source code [click here](https://github.com/TeryakiiSauce/Ev
 
 ## PART #2 : Editing the code
 Once everything is working fine, all you need now is to let the program to be able to connect to your database.  
-To do this, search for the [line *338*](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.2.py#L338) (v1.2) that says:
+To do this, search for the [*line 338*](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.2.py#L338) (v1.2) that says:
 
 `connection = pymysql.connect("<ip address>", "<user; usually 'root'>", "<password>", "<database>")`
 
