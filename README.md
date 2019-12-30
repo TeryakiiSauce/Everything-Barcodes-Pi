@@ -4,7 +4,7 @@
 ### Description
 You can read barcodes (few only; check "[barcodes list.docx](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/barcodes%20list.docx)" to print the list) and related info is displayed. You can even edit, remove, insert, and view all records!
 
-Before using the program make sure to install [PyMySQL](https://www.youtube.com/watch?v=Hja8XzTgJHI) (Windows) and VS Code to run the program. It will let you know that you should install python (if not already installed). Otherwise it will exit immediately everytime you run it (idrk why it happens...).
+Before using the program make sure to install [PyMySQL](https://www.youtube.com/watch?v=Hja8XzTgJHI) (Windows) and VS Code to run the program. It will let you know that you should install python (if not already installed). Otherwise it will exit immediately everytime you run it, idrk why it happens...
 
 To view the lastest source code [click here](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.2.py)
 
