@@ -28,7 +28,7 @@ try :
     import re
     
 except ImportError :
-    print("\nmake sure you have installed these packages before running:\n\n1. pymysql : sudo apt-get install python3-pymysql or sudo pip install PyMySQL\n2. evdev   : sudo pip install evdev");
+    print("\nmake sure you have installed these packages before running:\n\n1. pymysql : sudo apt-get install python3-pymysql or sudo pip install PyMySQL");
     print("\n========== see you soon hehe :) ==========");
     raise SystemExit;
 
