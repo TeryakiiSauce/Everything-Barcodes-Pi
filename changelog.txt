@@ -1,8 +1,8 @@
 
-v1.0:
-	1. main program is finised which involves only reading records from MySQL using the barcode scanner or entering the codes manually.
+v1.0 (windows is not supported):
+	1. main program is finised which involves only reading records from MySQL using the barcode scanner or entering the codes manually
 
-v1.1:
+v1.1 (windows is not supported):
 	1. new program title hehe :)
 	2. allow users to view all records
 	3. ability to modify, delete, insert records
@@ -10,6 +10,8 @@ v1.1:
 v1.2:
 	1. removed unneccesary lines of code
 
+COMING SOON
+===================================================
 v1.3:
 	1. add passcodes to protect modifications of records in the database (delete, insert, edit)
 
