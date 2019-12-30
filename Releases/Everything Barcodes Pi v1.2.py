@@ -335,10 +335,10 @@ def confirm(sql_query, menu_option) : # takes sql_query as argument
 ##################################################
 
 try : 
-    connection = pymysql.connect("localhost", "root", "36300710", "my_inventory"); # open connection to MySQL [ IP ADDR | USERNAME | PASSWORD | DATABASE FILE ]
+    connection = pymysql.connect("<ip address>", "<user; usually 'root'>", "<password>", "<database>"); # open connection to MySQL [ IP ADDR | USERNAME | PASSWORD | DATABASE FILE ]
     
 except Exception:
-    print("Error 303 occured : please review your credintials... (ln 361)");  # displays errors related to MySQL connection
+    print("Error 303 occured : please review your credintials... (ln 338)");  # displays errors related to MySQL connection
     raise SystemExit;
     
 cursor = connection.cursor();
