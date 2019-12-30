@@ -2,7 +2,7 @@
 ***[ MADE FOR THE RASPBERRY PI, hence the name ]***
 
 ### Description
-You can read barcodes (few only; check "barcodes list.docx" to print the list) and related info is displayed. You can even edit, remove, insert, and view all records!
+You can read barcodes (few only; check "[barcodes list.docx](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/barcodes%20list.docx)" to print the list) and related info is displayed. You can even edit, remove, insert, and view all records!
 
 Before using the porgram make sure to install [PyMySQL](https://www.youtube.com/watch?v=Hja8XzTgJHI) (Windows)
 
@@ -17,7 +17,7 @@ To view the lastest source code [click here](https://github.com/TeryakiiSauce/Ev
 2. Install xampp *(easy)* : [ https://www.apachefriends.org/index.html ] Info : install xampp into C:\xampp (default) > open it > start Apache and MySQL. *To check if the site works or not type your ip address in the browser*.
 3. Once the website is displayed, it means you've done a great job hehe :) anyway, click **phpMyAdmin**.
 4. Create a new database with the name of your choice *(eg: my_inventory)* by clicking on **"New"**
-5. Once the database is created, click on import > choose file and search for the *"product_details.sql"* file and click **"Go"**.  
+5. Once the database is created, click on import > choose file and search for the *"[product_details.sql](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.sql)"* file (you may need to download it; also there is a .csv version if needed) and click **"Go"**.  
 **Note: in the format section, make sure SQL is selected.**
 
 ***Note: Do not edit the columns as the program might not work well. You can only edit, add, and remove rows though it could also be done using the "Everything Barcodes Pi.py" program.***
