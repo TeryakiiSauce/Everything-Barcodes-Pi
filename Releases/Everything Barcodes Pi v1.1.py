@@ -308,7 +308,7 @@ def find_device() :
 
 def device_found() :
     if find_device() == None :
-        print("No barcode scanner was detected!\n*if a barcode is connected but not recognised, you can edit the code in line *299*. To find the device name enter '$ python3 -m evdev.evtest'. However, in order to use the command, you need to install 'evdev' from: https://python-evdev.readthedocs.io/en/latest/install.html#from-source\n");
+        print("No barcode scanner was detected!\n*if a barcode is connected but not recognised, you can edit the code in line *301*. To find the device name enter '$ python3 -m evdev.evtest'. However, in order to use the command, you need to install 'evdev' from: https://python-evdev.readthedocs.io/en/latest/install.html#from-source\n");
         return False;
     
     else :
@@ -360,10 +360,10 @@ def confirm(sql_query, menu_option) : # takes sql_query as argument
 ##################################################
 
 try : 
-    connection = pymysql.connect("localhost", "root", "36300710", "my_inventory"); # open connection to MySQL [ IP ADDR | USERNAME | PASSWORD | DATABASE FILE ]
+    connection = pymysql.connect("<ip address>", "<user; usually 'root'>", "<password>", "<database>"); # open connection to MySQL [ IP ADDR | USERNAME | PASSWORD | DATABASE FILE ]
     
 except Exception:
-    print("Error 303 occured : please review your credintials... (ln 361)");  # displays errors related to MySQL connection
+    print("Error 303 occured : please review your credintials... (ln 363)");  # displays errors related to MySQL connection
     raise SystemExit;
     
 cursor = connection.cursor();
