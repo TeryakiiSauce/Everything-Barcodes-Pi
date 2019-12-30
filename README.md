@@ -29,3 +29,5 @@ To do this, search for the [line *338*](https://github.com/TeryakiiSauce/Everyth
 `connection = pymysql.connect("<ip address>", "<user; usually 'root'>", "<password>", "<database>")`
 
 ### ENJOY!
+
+![pixel art of a shop in Japan](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/pixelart.gif)
