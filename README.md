@@ -16,7 +16,7 @@ To view the lastest source code [click here](https://github.com/TeryakiiSauce/Ev
 
 ## PART #1 : Installing and setting up the database
 1. Follow this [website](https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/) to install the required materials (Apache, MySQL, and PHP).
-2. Once your local website is displayed, it means you've done a great job hehe :)
+2. Once your local website is displayed, it means you've done a great job and ready to continue hehe :)
 3. Create a new database with the name of your choice *(eg: my_inventory)* by clicking on **"New"**
 4. Once the database is created, click on import > choose file and search for the *"[product_details.sql](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.sql)"* file (you may need to download it; also there is a [.csv](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.csv) version if needed) and click **"Go"**.  
 **Note: in the format section, make sure SQL is selected.**
