@@ -33,6 +33,8 @@ To do this, search for the [*line 338*](https://github.com/TeryakiiSauce/Everyth
 All you have to do is search for the version you'd like to use in the '*Releases*' folder and then `cd` into that directory and enter the following command
 
 ### Example
+`python3 Everything Barcodes Pi v1.2.py`  
+or  
 `python3 ~/Everything-Barcodes-Pi-master/Releases/Everything Barcodes Pi v1.2.py`
 
 ### ENJOY!
