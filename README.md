@@ -4,7 +4,9 @@
 ### Description
 You can read barcodes (few only; check "[barcodes list.docx](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/barcodes%20list.docx)" to print the list) and related info is displayed. You can even edit, remove, insert, and view all records!
 
-Before using the program make sure to install [PyMySQL](https://www.youtube.com/watch?v=Hja8XzTgJHI) and [VS Code](https://code.visualstudio.com/) to run the program. It will let you know that you should install python (if not already installed). Otherwise it will exit immediately everytime you run it, idrk why it happens...
+Before using the program make sure to install **PyMySQL**
+
+`python3 -m pip install PyMySQL`
 
 To view the lastest source code [click here](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.2.py)
 
@@ -13,11 +15,10 @@ To view the lastest source code [click here](https://github.com/TeryakiiSauce/Ev
 # What should you do to use the program?
 
 ## PART #1 : Installing and setting up the database
-1. Install mysql *(easy)* : [ windows: https://dev.mysql.com/downloads/installer/ ] Also watch [this video](https://www.youtube.com/watch?v=2WyFx9Zt7YU) for more info.
-2. Install xampp *(easy)* : [ https://www.apachefriends.org/index.html ] Info : install xampp into C:\xampp (default) > open it > start Apache and MySQL. *To check if the site works or not type your ip address in the browser*.
-3. Once the website is displayed, it means you've done a great job hehe :) anyway, click **phpMyAdmin**.
-4. Create a new database with the name of your choice *(eg: my_inventory)* by clicking on **"New"**
-5. Once the database is created, click on import > choose file and search for the *"[product_details.sql](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.sql)"* file (you may need to download it; also there is a .csv version if needed) and click **"Go"**.  
+1. Follow this [website](https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/) to install the required materials (Apache, MySQL, and PHP).
+2. Once the website is displayed, it means you've done a great job hehe :)
+3. Create a new database with the name of your choice *(eg: my_inventory)* by clicking on **"New"**
+4. Once the database is created, click on import > choose file and search for the *"[product_details.sql](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.sql)"* file (you may need to download it; also there is a .csv version if needed) and click **"Go"**.  
 **Note: in the format section, make sure SQL is selected.**
 
 ***Note: Do not edit the columns as the program might not work well. You can only edit, add, and remove rows though it could also be done using the "Everything Barcodes Pi.py" program.***
