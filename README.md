@@ -29,6 +29,12 @@ To do this, search for the [*line 338*](https://github.com/TeryakiiSauce/Everyth
 
 `connection = pymysql.connect("<ip address>", "<user; usually 'root'>", "<password>", "<database>")`
 
+## PART #3 : Executing the program
+All you have to do is search for the version you'd like to use in the '*Releases*' folder and then `cd` into that directory and enter the following command
+
+### Example
+`python3 ~/Everything-Barcodes-Pi-master/Releases/Everything Barcodes Pi v1.2.py`
+
 ### ENJOY!
 
 ![pixel art of a shop in Japan](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/pixelart.gif)
