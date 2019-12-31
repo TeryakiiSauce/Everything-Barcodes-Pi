@@ -35,7 +35,7 @@ All you have to do is search for the version you'd like to use in the '*Releases
 ### Example
 `python3 Everything Barcodes Pi v1.2.py`  
 or  
-`python3 ~/Everything-Barcodes-Pi-master/Releases/Everything Barcodes Pi v1.2.py`
+`python3 <path>/Everything Barcodes Pi v1.2.py`
 
 ### ENJOY!
 
