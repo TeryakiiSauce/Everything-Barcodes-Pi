@@ -6,9 +6,9 @@
 ##  Version        : 1.0                             ##
 ##  Description    : Scans product barcodes and      ##
 ##                   displays related information    ##
-##  Date Created   : December 12, 2019 - 6:30 PM     ##
-##  Date Started   : December 12, 2019 - 6:30 PM     ##
-##  Date Updated   : December 15, 2019 - 9:35 PM     ##
+##  Date Created   : December 12, 2019 - 9:34 PM     ##
+##  Date Started   : December 12, 2019 - 9:34 PM     ##
+##  Date Updated   : December 17, 2019 - 3:29 PM     ##
 ##                                                   ##
 ##                 *****************                 ##
 ##                                                   ##
