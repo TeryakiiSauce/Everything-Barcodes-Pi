@@ -14,12 +14,12 @@ To view the lastest source code [click here](https://github.com/TeryakiiSauce/Ev
 
 # What should you do to use the program?
 
-## PART #1 : Installing and setting up the database
+## PART #1 : Installing and setting up the database (local)
 1. Follow this [website](https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/) to install the required materials (Apache, MySQL, and PHP).
 2. Once your local website is displayed, it means you've done a great job and ready to continue hehe :)
 3. Create a new database with the name of your choice *(eg: my_inventory)* by clicking on **"New"**
-4. Once the database is created, click on import > choose file and search for the *"[product_details.sql](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.sql)"* file (you may need to download it; also there is a [.csv](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.csv) version if needed) and click **"Go"**.  
-**Note: in the format section, make sure SQL is selected.**
+4. Once the database is created, click on *import* > *choose file* and search for the *"[product_details.sql](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.sql)"* file (you may need to download it; also there is a [.csv](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.csv) version if needed) and click **"Go"**.  
+**Note: in the format section, make sure that the appropriate format is selected (eg: SQL for .sql).**
 
 ***Note: Do not edit the columns as the program might not work well. You can only edit, add, and remove rows though it could also be done using the "Everything Barcodes Pi.py" program.***
 
