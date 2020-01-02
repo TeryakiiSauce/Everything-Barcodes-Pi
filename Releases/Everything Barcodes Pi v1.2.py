@@ -7,8 +7,8 @@
 ##  Description    : Scans product barcodes and      ##
 ##                   displays related information    ##
 ##  Date Created   : December 12, 2019 - 6:30 PM     ##
-##  Date Started   : December 22, 2019 - 5:45 PM     ##
-##  Date Updated   : December 24, 2019 - 2:53 AM     ##
+##  Date Started   : December 24, 2019 - 2:13 AM     ##
+##  Date Updated   : December 25, 2019 - 1:15 AM     ##
 ##                                                   ##
 ##                 *****************                 ##
 ##                                                   ##
