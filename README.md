@@ -8,7 +8,8 @@ Before using the program make sure to install **PyMySQL**
 
 `python3 -m pip install PyMySQL`
 
-To view the lastest source code [click here](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.2.py)
+>To view the lastest source code [click here](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.2.py)  
+>To watch a YouTube demo video of the program [click here](https://youtu.be/Mpy9pa-zqYE)
 
 *Just to make everything clear I'm new to python :)*
 
@@ -29,8 +30,18 @@ To do this, search for the [*line 338*](https://github.com/TeryakiiSauce/Everyth
 
 `connection = pymysql.connect("<ip address>", "<user; usually 'root'>", "<password>", "<database>")`
 
+All you have to do now is to replace each segment with the appropriate values (keep the quotation marks)
+> **IP Address :** To find the IP Address of your Raspberry Pi enter `hostname -I`  
+> **User :** It is *root* by default  
+> **Password :** The password of the MySQL  
+> **Database :** The database's name
+
 ## PART #3 : Executing the program
-All you have to do is search for the version you'd like to use in the '*Releases*' folder and then `cd` into that directory and enter the following command
+Once the zip file is downloaded, all you have to do now is to extract it using the command
+
+`tar xzf "something.zip (eg: "Everything-Barcodes-Pi-master.zip")"`
+
+Then search for the version you'd like to use in the '*Releases*' folder and then `cd` into that directory and enter the following command
 
 ### Example
 `python3 Everything Barcodes Pi v1.2.py`  
