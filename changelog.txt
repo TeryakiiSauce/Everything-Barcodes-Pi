@@ -1,6 +1,6 @@
 
 v1.0 (windows is not supported):
-	1. main program is finised which involves only reading records from MySQL using the barcode scanner or entering the codes manually
+	1. main program is finished which involves only reading records from MySQL using the barcode scanner or entering the codes manually
 
 v1.1 (windows is not supported):
 	1. new program title hehe :)
