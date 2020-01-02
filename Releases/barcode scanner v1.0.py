@@ -15,6 +15,10 @@
 ##  Twitter        : @TeryakiiSauce                  ##
 ##  Instagram      : @fckusernameslmao               ##
 ##                                                   ##
+##                 *****************                 ##
+##                                                   ##
+##  Note : it may not be very efficient :(           ##
+##                                                   ##
 #######################################################
 
 try :
