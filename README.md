@@ -33,7 +33,7 @@ To do this, search for the [*line 338*](https://github.com/TeryakiiSauce/Everyth
 All you have to do now is to replace each segment with the appropriate values (keep the quotation marks)
 > **IP Address :** To find the IP Address of your Raspberry Pi enter `hostname -I`  
 > **User :** It is *root* by default  
-> **Password :** The password of the MySQL  
+> **Password :** The password of the user mentioned
 > **Database :** The database's name
 
 ## PART #3 : Executing the program
