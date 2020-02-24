@@ -9,7 +9,7 @@ Before using the program make sure to install **Python** and **PyMySQL**
 Python : `sudo apt-get update && sudo apt-get install python3.6`    
 PyMySQL : `python3 -m pip install PyMySQL`
 
->To view the lastest source code [click here](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.2.py)  
+>To view the lastest source code [click here](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.3.py)  
 >To watch a YouTube demo video of the program [click here](https://youtu.be/Mpy9pa-zqYE)
 
 *Just to make everything clear I'm new to python :)*
@@ -27,7 +27,7 @@ PyMySQL : `python3 -m pip install PyMySQL`
 
 ## PART #2 : Editing the code
 Once everything is working fine, all you need now is to let the program to be able to connect to your database.  
-To do this, search for the [*line 338*](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/f298b3a7f5527184b4fb551ac826bc0f94ad1443/Releases/Everything%20Barcodes%20Pi%20v1.2.py#L339) (v1.2) that says:
+To do this, search for the [*line 355*](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.3.py#L355) (v1.3) that says:
 
 `connection = pymysql.connect("<ip address>", "<user; usually 'root'>", "<password>", "<database>")`
 
