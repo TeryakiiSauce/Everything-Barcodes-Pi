@@ -16,13 +16,13 @@ Before using the program make sure to install **PyMySQL**
 # What should you do to use the program?
 
 ## PART #1 : Installing and setting up the database (local)
-1. Follow this [website](https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/) to install the required resources (Apache, MySQL, and PHP).
-2. Once you are able to view your local website, it means you've done a great job and ready to continue hehe :)
+1. Follow this [website](https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/) to install the required resources (Apache, MySQL, PHP, and PHPMyAdmin).
+2. Once you are able to view your local website and phpmyadmin, it means you've done a great job and ready to continue hehe :)
 3. Create a new database with the name of your choice *(eg: my_inventory)* by clicking on *New*
-4. Once the database is created, click on *import* > *choose file* and search for the *"[product_details.sql](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.sql)"* file (you may need to download it; also there is a [.csv](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.csv) version if needed) and click **"Go"**.  
+4. Once the database is created, click on *import (ignore all errors)* > *choose file* and search for the *"[product_details.sql](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.sql)"* file (you may need to download it; also there is a [.csv](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.csv) version if needed) and click **"Go"**.  
 **Note: in the format section, make sure that the appropriate format is selected (eg: SQL for .sql).**
 
-***Note: Do not edit the columns as the program might not work well. You can only edit, add, and remove rows though it could also be done using the "Everything Barcodes Pi.py" program.***
+***Note: Do not edit the columns as the program might not work well. You can only edit, add, and remove rows though it could also be done using the "Everything Barcodes Pi" program.***
 
 ## PART #2 : Editing the code
 Once everything is working fine, all you need now is to let the program to be able to connect to your database.  
@@ -31,22 +31,22 @@ To do this, search for the [*line 338*](https://github.com/TeryakiiSauce/Everyth
 `connection = pymysql.connect("<ip address>", "<user; usually 'root'>", "<password>", "<database>")`
 
 All you have to do now is to replace each segment with the appropriate values (keep the quotation marks)
-> **IP Address :** To find the IP Address of your Raspberry Pi enter `hostname -I`  
+> **IP Address :** localhost | To find the IP Address of your Raspberry Pi enter `hostname -I`  
 > **User :** It is *root* by default  
 > **Password :** The password of the user mentioned  
 > **Database :** The database's name
 
 ## PART #3 : Executing the program
-Once the zip file is downloaded, all you have to do now is to extract it using the command
+Once the zip file of the desired version is downloaded, all you have to do now is to extract it using the command
 
-`tar xzf "something.zip (eg: "Everything-Barcodes-Pi-master.zip")"`
+`tar xzf Everything.Barcodes.Pi.vx.x.zip"`
 
-Then search for the version you'd like to use in the '*Releases*' folder and then `cd` into that directory and enter the following command
+Then `cd` into that directory and enter the following command
 
 ### Example
-`python3 Everything Barcodes Pi v1.2.py`  
+`python3 Everything Barcodes Pi vx.x.py`  
 or  
-`python3 <path>/Everything Barcodes Pi v1.2.py`
+`python3 <path>/Everything Barcodes Pi vx.x.py`
 
 ### ENJOY!
 
