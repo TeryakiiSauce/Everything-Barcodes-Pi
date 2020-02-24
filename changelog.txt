@@ -1,20 +1,24 @@
 
-v1.0 (windows is not supported):
-	1. main program is finished which involves only reading records from MySQL using the barcode scanner or entering the codes manually
+v1.3:
+	1. adjusted few prompts
+	2. bugs were eliminated!
+	3. various minor fixes lol
 
+v1.2:
+	1. removed unneccesary lines of code
+	
 v1.1 (windows is not supported):
 	1. new program title hehe :)
 	2. allow users to view all records
 	3. ability to modify, delete, insert records
 	
-v1.2:
-	1. removed unneccesary lines of code
+v1.0 (windows is not supported):
+	1. main program is finished which involves only reading records from MySQL using the barcode scanner or entering the codes manually
+
 
 COMING SOON
 ===================================================
-v1.3:
-	1. add passcodes to protect modifications of records in the database (delete, insert, edit)
-	2. add settings to change the connection properties
 
-v2.0:
-	1. introduction to transactions
+1. add passcodes to protect modifications of records in the database (delete, insert, edit)
+2. add settings to change the connection properties
+3. introduction to transactions
