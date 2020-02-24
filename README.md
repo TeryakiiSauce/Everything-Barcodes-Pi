@@ -4,9 +4,10 @@
 ### Description
 You can read barcodes (check "[barcodes list.docx](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/barcodes%20list.docx)" to print the list) and related info is displayed. You can even edit, remove, insert, and view all records!
 
-Before using the program make sure to install **PyMySQL**
+Before using the program make sure to install **Python** and **PyMySQL**
 
-`python3 -m pip install PyMySQL`
+Python : `sudo apt-get update && sudo apt-get install python3.6`    
+PyMySQL : `python3 -m pip install PyMySQL`
 
 >To view the lastest source code [click here](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Releases/Everything%20Barcodes%20Pi%20v1.2.py)  
 >To watch a YouTube demo video of the program [click here](https://youtu.be/Mpy9pa-zqYE)
