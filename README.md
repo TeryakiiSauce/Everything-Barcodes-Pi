@@ -1,5 +1,6 @@
 # Everything-Barcodes-Pi
-***[ MADE FOR THE RASPBERRY PI, hence the name ]***
+***[ MADE FOR THE RASPBERRY PI, hence the name ]***    
+**Note: check steps below for Windows support**
 
 ### Description
 You can read barcodes (check "[barcodes list.docx](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/barcodes%20list.docx)" to print the list) and related info is displayed. You can even edit, remove, insert, and view all records!
@@ -14,11 +15,35 @@ PyMySQL : `python3 -m pip install PyMySQL`
 
 *Just to make everything clear I'm new to python :)*
 
-# What should you do to use the program?
+# What should you do to use the program? (Windows)
 
-## PART #1 : Installing and setting up the database (local)
+## PART #1 : Installation of Linux OS in Windows
+You could either use a **Virtual Machine** to install a Linux distro *(Eg: Ubuntu)* or install *Ubuntu* from the **Microsoft Store** *(quicker to setup but GUI is not avaiable)*
+
+### Recommendations :
+- Install using **Virtual Machince** if you :
+  1. Want a GUI
+  2. Don't mind waiting for the installation & booting process
+  3. Want to spend much time to edit the source code and debugging
+  4. Have enough memory on your PC (SSD, HDD, RAM, etc)
+  5. Your PC meets the minimum requirements to run the OS *(there's a lite version of Ubuntu for low-powered PCs called "Lubuntu")*
+  
+- Install *Ubuntu* from **Microsoft Store** if you :
+  1. Want to run the program without extensive editing of the source code or debugging
+  2. Familiar with the CLI
+  3. Want a faster method
+  
+***Make sure to watch YouTube videos or visit other websites to install using a Virtual Machine***
+
+## PART #2 : Moving ahead...
+*Continue with the steps below once you have the Linux OS running without problems*
+
+# What should you do to use the program? (Linux)
+
+## PART #1 : Installing and setting up the database (locally)
 1. Follow this [website](https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/) to install the required resources (Apache, MySQL, PHP, and PHPMyAdmin).
-2. Once you are able to view your local website and phpmyadmin, it means you've done a great job and ready to continue hehe :)
+2. Once you are able to view your local website and phpmyadmin, it means you've done a great job and ready to continue hehe :)    
+**By the way, your website can be viewed from any device connected to the same network*
 3. Create a new database with the name of your choice *(eg: my_inventory)* by clicking on *New*
 4. Once the database is created, click on *import (ignore all errors)* > *choose file* and search for the *"[product_details.sql](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.sql)"* file (you may need to download it; also there is a [.csv](https://github.com/TeryakiiSauce/Everything-Barcodes-Pi/blob/master/Resources/product_details.csv) version if needed) and click **"Go"**.  
 **Note: in the format section, make sure that the appropriate format is selected (eg: SQL for .sql files).**
