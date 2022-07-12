@@ -1,4 +1,4 @@
-> 📌 Note: Repo is now archived because I will not make any further changes (development stopped); however, you can still clone, fork, etc.
+> 📌 Note: Repo is now archived because I will not make any further changes (development stopped); however, you can still clone, fork, etc..
 
 # Everything-Barcodes-Pi
 ***[ MADE FOR THE RASPBERRY PI, hence the name ]***    
